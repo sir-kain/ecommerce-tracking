@@ -1,0 +1,114 @@
+<div class="home-product-tabs pt-5 pt-md-0">
+    <div class="container">
+        <ul class="nav nav-tabs mb-3" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="featured-products-tab" data-toggle="tab"
+                   href="#featured-products" role="tab" aria-controls="featured-products" aria-selected="true">Featured
+                    Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="latest-products-tab" data-toggle="tab" href="#latest-products"
+                   role="tab" aria-controls="latest-products" aria-selected="false">Latest Products</a>
+            </li>
+        </ul>
+        <div class="tab-content m-b-4">
+            <div class="tab-pane fade show active" id="featured-products" role="tabpanel"
+                 aria-labelledby="featured-products-tab">
+                <div class="tab-products-carousel owl-carousel owl-theme quantity-inputs show-nav-hover nav-outer nav-image-center">
+                    <div class="product-default inner-quickview inner-icon quantity-input">
+                        <figure>
+                            <a href="product.html">
+                                <img src="{{ asset("images/products/product-1.jpg") }}">
+                            </a>
+                            <div class="label-group">
+                                <span class="product-label label-hot">HOT</span>
+                                <span class="product-label label-sale">-30%</span>
+                            </div>
+                            <div class="btn-icon-group">
+                                <a href="#" class="btn-icon btn-icon-wish"><i class="icon-heart"></i></a>
+                            </div>
+                            <a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View">Quick
+                                View</a>
+                        </figure>
+                        <div class="product-details">
+                            <div class="category-list">
+                                <a href="category.html" class="product-category">category</a>
+                            </div>
+                            <h2 class="product-title">
+                                <a href="product.html">Product Short Name 1</a>
+                            </h2>
+                            <div class="ratings-container">
+                                <div class="product-ratings">
+                                    <span class="ratings" style="width:0%"></span><!-- End .ratings -->
+                                    <span class="tooltiptext tooltip-top"></span>
+                                </div><!-- End .product-ratings -->
+                            </div><!-- End .product-container -->
+                            <div class="price-box">
+                                <span class="old-price">$49.00</span>
+                                <span class="product-price">$59.00</span>
+                            </div><!-- End .price-box -->
+                            <div class="product-action">
+                                <div class="product-single-qty">
+                                    <input class="horizontal-quantity form-control" type="text">
+                                </div><!-- End .product-single-qty -->
+                                <button class="btn-icon btn-add-cart" data-toggle="modal"
+                                        data-target="#addCartModal"><i class="icon-shopping-cart"></i>ADD TO
+                                    CART
+                                </button>
+                            </div>
+                        </div><!-- End .product-details -->
+                    </div>
+                </div><!-- End .products-carousel -->
+            </div><!-- End .tab-pane -->
+            <div class="tab-pane fade" id="latest-products" role="tabpanel"
+                 aria-labelledby="latest-products-tab">
+                <div class="tab-products-carousel owl-carousel owl-theme quantity-inputs show-nav-hover nav-outer nav-image-center">
+                    <div class="product-default inner-quickview inner-icon quantity-input">
+                        <figure>
+                            <a href="product.html">
+                                <img src="{{ asset("images/products/product-5.jpg") }}">
+                                <img src="{{ asset("images/products/product-5-2.jpg") }}">
+                            </a>
+                            <div class="label-group">
+                                <span class="product-label label-hot">HOT</span>
+                                <span class="product-label label-sale">-30%</span>
+                            </div>
+                            <div class="btn-icon-group">
+                                <a href="#" class="btn-icon btn-icon-wish"><i class="icon-heart"></i></a>
+                            </div>
+                            <a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View">Quick
+                                View</a>
+                        </figure>
+                        <div class="product-details">
+                            <div class="category-list">
+                                <a href="category.html" class="product-category">category</a>
+                            </div>
+                            <h2 class="product-title">
+                                <a href="product.html">Product Short Name 2</a>
+                            </h2>
+                            <div class="ratings-container">
+                                <div class="product-ratings">
+                                    <span class="ratings" style="width:0%"></span><!-- End .ratings -->
+                                    <span class="tooltiptext tooltip-top"></span>
+                                </div><!-- End .product-ratings -->
+                            </div><!-- End .product-container -->
+                            <div class="price-box">
+                                <span class="old-price">$49.00</span>
+                                <span class="product-price">$59.00</span>
+                            </div><!-- End .price-box -->
+                            <div class="product-action">
+                                <div class="product-single-qty">
+                                    <input class="horizontal-quantity form-control" type="text">
+                                </div><!-- End .product-single-qty -->
+                                <button class="btn-icon btn-add-cart" data-toggle="modal"
+                                        data-target="#addCartModal"><i class="icon-shopping-cart"></i>ADD TO
+                                    CART
+                                </button>
+                            </div>
+                        </div><!-- End .product-details -->
+                    </div>
+                </div><!-- End .products-carousel -->
+            </div><!-- End .tab-pane -->
+        </div><!-- End .tab-content -->
+    </div><!-- End .container -->
+</div><!-- End .home-product-tabs -->
